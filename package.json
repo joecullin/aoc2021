@@ -1,0 +1,28 @@
+{
+  "name": "aoc2021",
+  "version": "1.0.0",
+  "description": "Advent of Code 2021 solutions",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "./run.js",
+    "lint": "node_modules/eslint/bin/eslint.js solutions/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joecullin/aoc2021.git"
+  },
+  "author": "Joe Cullin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joecullin/aoc2021/issues"
+  },
+  "homepage": "https://github.com/joecullin/aoc2021#readme",
+  "dependencies": {
+    "get-stdin": "^8.0.0",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  }
+}
