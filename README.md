@@ -15,7 +15,7 @@ Run a puzzle, for example the second part of day one:
 My inputs are used by default.
 If you want to use a different input, specify a file with the `--input` parameter.
 ```
-./run.js --puzzle=1.2 --input=./my-test-file.txt
+./run.js --puzzle=1.2 --input=./inputs/01.sample.txt
 ```
 
 I'm logging some notes & thoughts in [journal.md](journal.md).
