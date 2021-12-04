@@ -13,7 +13,7 @@ const run = async (params) => {
         }
         const half = numbers.length / 2;
         const sum = numbers.reduce(
-            (previousValue, currentValue, currentIndex) => {
+            (previousValue, currentValue) => {
                 return previousValue + currentValue[position]
             },
             0

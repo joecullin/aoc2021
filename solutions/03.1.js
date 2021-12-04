@@ -11,7 +11,7 @@ const run = async (params) => {
     let gammaDigits = [];
     for (let i=0; i<numbers[0].length; i++){
         const sum = numbers.reduce(
-            (previousValue, currentValue, currentIndex) => {
+            (previousValue, currentValue) => {
                 return previousValue + currentValue[i]
             },
             0
