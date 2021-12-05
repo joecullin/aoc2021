@@ -7,11 +7,7 @@ const run = async (params) => {
             const [x,y] = point.split(",").map(coord => parseInt(coord));
             return {x,y};
         });
-        return {
-            points,
-            isVertical  : (points[0].x === points[1].x),
-            isHorizontal: (points[0].y === points[1].y),
-        };
+        return { points };
     });
 
     const walkTheLine = (line) => {

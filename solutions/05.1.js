@@ -15,7 +15,6 @@ const run = async (params) => {
     });
 
     // I'm not going to worry about making this more concise until I see part 2.
-
     // ... actually I'm going to leave it. See part 2 solution for a cleaner walkTheLine function.
 
     const walkTheLine = (line) => {
