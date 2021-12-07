@@ -1,9 +1,13 @@
 # Misc notes & thoughts.
 
 ---
-## Day x
+## Day 7
 
-Placeholder - add notes here.
+I was worried part 2 might turn out to be too slow for brute force.
+
+Wound up being good enough.
+
+If that hadn't worked, I probably would've tried started searching outward from the average position next.
 
 ---
 ## Setup
