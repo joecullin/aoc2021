@@ -1,6 +1,13 @@
 # Misc notes & thoughts.
 
 ---
+## Day 10
+
+Last bit of catching up to current.
+
+Got lucky with part two. My leftover array from part one happened to be exactly what I needed for autocompletion.
+
+---
 ## Day 8
 
 Playing catch-up after 2 sick days, I decided up front that I would settle for ugly-but-working.
