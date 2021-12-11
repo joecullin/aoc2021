@@ -1,6 +1,14 @@
 # Misc notes & thoughts.
 
 ---
+## Day 11
+
+I was worried part two would be one of those runs-for-12-hours-and-then-runs-out-of-memory kinds of twists, where I had to totally re-think my approach and spot the math trick. But it turned out to be another simple extension of part one.
+
+One thing I've learned, comparing my current approach to past years, is to treat these 2-dimensional grids a single list of objects. I used to try wrangling them as 2-dimensional arrays in js, but it's so much easier to work with javascript's list functions on a single list.
+
+
+---
 ## Day 10
 
 Last bit of catching up to current.
