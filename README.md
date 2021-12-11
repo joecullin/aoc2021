@@ -18,4 +18,9 @@ If you want to use a different input, specify a file with the `--input` paramete
 ./run.js --puzzle=1.2 --input=./inputs/01.sample.txt
 ```
 
+When I'm working on the solution, I tend to run it like the following. (Normally I would get instant linting in vscode, but I like to do these in vi.)
+```
+npm run lint && ./run.js --puzzle=1.2 --input=./inputs/01.sample.txt
+```
+
 I'm logging some notes & thoughts in [journal.md](journal.md).
