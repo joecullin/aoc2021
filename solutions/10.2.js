@@ -11,10 +11,8 @@ const run = async (params) => {
         "<": ">",
     };
 
+    // After reading each new char, we'll recursively eliminate any closed expressions.
     const trim = (acc) => {
-        if (acc.length < 2){
-            return acc;
-        }
         const last = acc[acc.length-1];
         const next = acc[acc.length-2];
         if (closers.includes(last)){
@@ -24,7 +22,7 @@ const run = async (params) => {
                 acc = trim(acc);
             }
             else{
-                return last;
+                return; // corrupted
             }
         }
         return acc;
@@ -37,16 +35,16 @@ const run = async (params) => {
             acc.push(char);
             acc = trim(acc);
             if (!Array.isArray(acc)){
-                return;
+                return; // corrupted
             }
         }
+        // find completion and score
         acc.reverse();
-        const completion = acc.map(char => mirrors[char]);
-        const values = { ")": 1, "]": 2, "}": 3, ">": 4 };
+        const points = "_)]}>"; // _ 1 2 3 4
         let score = 0;
-        completion.forEach(char => {
+        acc.map(char => mirrors[char]).forEach(char => {
             score = score * 5;
-            score += values[char];
+            score += points.indexOf(char);
         });
         return score;
     };
@@ -54,7 +52,10 @@ const run = async (params) => {
     const scores = input.map(line => {
         const chars = line.split('');
         return checkLine(chars);
-    }).filter(s => s).sort((a,b) => a -b);
+    })
+    .filter(s => s)       // skip corrupt
+    .sort((a,b) => a -b); // sort scores
+
     const middleIndex = Math.floor(scores.length/2);
     console.log(`answer: ${scores[middleIndex]}`);
 
