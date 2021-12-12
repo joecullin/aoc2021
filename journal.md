@@ -44,7 +44,15 @@ Copied repo from last year, removed all the input & solution files (kept only 01
 ---
 ## Previous years
 
-* 2018: I was minimally competent in nodejs, and forced myself to use this as a learning experience. Struggled with promises & async flow. Gave up after day 9. https://github.com/joecullin/aoc2018
-* 2019: Comfortable in node by now, but still learning. Stopped after day 16 due to other demands on my time. https://github.com/joecullin/aoc20x
-* 2020: Got all 50 stars! Some of the later puzzles were tough, though! https://github.com/joecullin/aoc20x
-* 2021: You're looking at it. See my thoughts above. https://github.com/joecullin/aoc20x
+* 2018
+    * I was minimally competent in nodejs, and forced myself to use this as a learning experience. Struggled with promises & async flow. Gave up after day 9.
+    * https://github.com/joecullin/aoc2018
+* 2019:
+    * Comfortable in node by now, but still learning. Stopped after day 16 due to other demands on my time.
+    * https://github.com/joecullin/aoc20x
+* 2020:
+    * Got all 50 stars! Some of the later puzzles were tough, though!
+   * https://github.com/joecullin/aoc20x
+* 2021:
+    * You're looking at it. See my thoughts above.
+    * https://github.com/joecullin/aoc20x
