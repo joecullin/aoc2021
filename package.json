@@ -20,6 +20,7 @@
   "homepage": "https://github.com/joecullin/aoc2021#readme",
   "dependencies": {
     "get-stdin": "^8.0.0",
+    "lodash": "^4.17.21",
     "yargs": "^15.4.1"
   },
   "devDependencies": {
