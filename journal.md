@@ -41,3 +41,10 @@ If that hadn't worked, I probably would've tried started searching outward from 
 
 Copied repo from last year, removed all the input & solution files (kept only 01.1), and removed unused modules.
 
+---
+## Previous years
+
+* https://github.com/joecullin/aoc2018 - barely competent in nodejs, used this to learn more. Struggled with promises & async flow, gave up after day 9.
+* https://github.com/joecullin/aoc2019 - comfortable in node but still learning. Stopped after day 16 due to other demands on my time.
+* https://github.com/joecullin/aoc2020 - Got all 50 stars! Some of the later puzzles were tough though.
+* https://github.com/joecullin/aoc2021 - You're looking at it. See my thoughts above.
