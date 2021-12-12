@@ -1,5 +1,10 @@
 # Misc notes & thoughts.
 
+I'm sticking with nodejs this year, and still feeling like I'm learning little new things. It's such a different type of coding (recursion!) than my day-to-day.
+
+I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
+
+
 ---
 ## Day 11
 
