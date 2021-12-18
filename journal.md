@@ -6,6 +6,22 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 15
+
+I remembered the name of the problem, but couldn't remember how to solve it.
+
+Went and read https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm and mostly followed that approach.
+
+Used https://en.wikipedia.org/wiki/ANSI_escape_code#Colors for my terminal visualization.
+
+Part 2 is not pretty or fast, but it works. Took about 20 minutes on my macbook air, with peak memory of 80mb.
+
+I think I could do a better job of skipping known dead-ends on each pass.
+
+But I'm trying to catch up for a missed week, so I'm not going to spend time refining it.
+
+
+---
 ## Day 14
 
 Part 2 completes 26 steps before running out of memory on step 27 -- and that's just for the sample input.
