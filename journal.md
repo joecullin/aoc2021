@@ -6,6 +6,28 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 14
+
+Part 2 completes 26 steps before running out of memory on step 27 -- and that's just for the sample input.
+
+Had to pause after part 1. Noting a thought here:
+
+I don't need to store the full polymer. I just need to track counts of pairs.
+
+Another thought: does the pattern repeat somehow?
+
+...  Spent more time Tues night reworking this so that it computes one chunk at a time.
+
+However, I used recursion, so now I think I'm running out of resources that way. It gets slower and slower and never finishes.
+
+... spent the rest of the week on work stuff -- log4j motivated us to do a complex but much-needed and long-postponed elastic migration.
+
+I think my next attempt will be to re-work my recursion to tail-recursion and then into a normal loop.
+
+But since I'm 4 days behind and just getting back into things, I'm going to try some of the other recent days first.
+
+
+---
 ## Day 11
 
 I was worried part two would be one of those runs-for-12-hours-and-then-runs-out-of-memory kinds of twists, where I had to totally re-think my approach and spot the math trick. But it turned out to be another simple extension of part one.
