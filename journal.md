@@ -14,13 +14,8 @@ I somehow got the right answer for part 1, even before I expected to. At that po
 
 I moved on to part 2 and made a giant mess, splicing arrays, doing recursion, and then trying to prepend the remainder after some of the recursive calls.
 
-Eventually threw that away and started from scratch on part 2. It's still basically the same recursion, but I'm simply passing around start & end positions on one global array, making it simpler to backtrack after I've finished reading a packet with length type of zero.
-
-part 1 answer: 929
-
-part 2: 911945136934
-
-
+Eventually threw that away and started from scratch on part 2. I'm only passing around start & end positions relative to one global array, making it simpler to backtrack after I've finished reading a packet with length type of zero.
+ 
 ---
 ## Day 15
 
