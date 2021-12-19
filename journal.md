@@ -6,6 +6,22 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 16
+
+Today's instructions are hard to follow.
+
+I still don't get this part:
+
+> the binary number is padded with leading zeroes until its length is a multiple of four bits
+
+Noting that here in case I need to come back to it.
+
+
+part 1 answer: 929
+
+
+
+---
 ## Day 15
 
 I remembered the name of the problem, but couldn't remember how to solve it.
