@@ -1,5 +1,10 @@
 const {readLines} = require("../common/readInput");
 
+// Note:
+// I know there are flaws in this, but it was good enough to get the right answer for part 1.
+// See part 2, and my notes in journal.md.
+
+
 const charValues = {
     "0": "0000", "1": "0001", "2": "0010", "3": "0011",
     "4": "0100", "5": "0101", "6": "0110", "7": "0111",
