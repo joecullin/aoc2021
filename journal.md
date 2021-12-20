@@ -6,6 +6,40 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 17
+
+About 70% of my part 1 code isn't actually needed, but I needed to work through it that way in order to visualize the solution.
+
+part 1: 4851
+
+
+part 2: x values:
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+
+
+
+---
 ## Day 16
 
 Today's instructions are hard to follow.
