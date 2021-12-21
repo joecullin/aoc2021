@@ -6,6 +6,28 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 20
+
+part 1: 5425
+
+
+part 2 next step:
+
+I'm needlessly computing a giant border area.
+- stop growing the border so aggressively
+- figure out how to detect infinite border. Whether it's lit or not, there's no point going beyond it.
+
+
+
+
+---
+## Day 19
+
+
+Skipped for now because I'm still catching up, and day 20 looked more appealing.
+
+
+---
 ## Day 18
 
 I started out trying to visualize this as a tree, then gradually found myself thinking of it like a JSON object.
