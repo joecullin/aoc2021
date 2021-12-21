@@ -6,6 +6,15 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 18
+
+I started out trying to visualize this as a tree, then gradually found myself thinking of it like a JSON object.
+
+So I went with that as my solution. Instead of some complex tree data structure, I used JSON.parse, JSON.stringify, and some regexes and splices to solve the puzzles.
+
+I use JSON.stringify to pretty-print with a one-character indent. From there, I can find the explodable pairs by searching for a specific indent. After that, I can search ahead and behind to find the next regular number.
+
+---
 ## Day 17
 
 About 70% of my part 1 code isn't actually needed, but I needed to work through it that way in order to visualize the solution.
