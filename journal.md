@@ -8,17 +8,7 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 ---
 ## Day 20
 
-part 1: 5425
-
-
-part 2 next step:
-
-I'm needlessly computing a giant border area.
-- stop growing the border so aggressively
-- figure out how to detect infinite border. Whether it's lit or not, there's no point going beyond it.
-
-
-
+Both parts are pretty ugly in their own ways, but they get the answer so I'm moving on.
 
 ---
 ## Day 19
