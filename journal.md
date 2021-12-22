@@ -13,8 +13,11 @@ Both parts are pretty ugly in their own ways, but they get the answer so I'm mov
 ---
 ## Day 19
 
-
 Skipped for now because I'm still catching up, and day 20 looked more appealing.
+
+... ok, now that I came back to 19 and spent a few minutes on it, I can tell that this one is going to be tough.
+
+I'm committing some barely-useful code, then setting this one aside to think about some more.
 
 
 ---
