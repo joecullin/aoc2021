@@ -19,6 +19,7 @@ Skipped for now because I'm still catching up, and day 20 looked more appealing.
 
 I'm committing some barely-useful code, then setting this one aside to think about some more.
 
+... next day, more time staring at it, still no workable ideas. I looked back at last year's day 20. Similar, but not helpful.
 
 ---
 ## Day 18
