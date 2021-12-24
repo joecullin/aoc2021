@@ -6,6 +6,24 @@ I'm in a private leaderboard with some https://www.barracuda.com/ colleagues.
 
 
 ---
+## Day 22
+
+Part 1 was pretty easy.
+
+I came up with an idea that I think will work for part 2, but my implementation is getting messier and messier.
+
+My biggest regret is that I didn't think cleanly about the difference between cubes vs cube boundaries.
+
+I'd like to scrap it and start fresh with that clarity.
+
+But I just don't know if I want to spend that much more time on it. I think I'm hitting my limit of time spent on AOC for the year.
+
+Maybe I'll get bored next week and pick it up again.
+
+Committing a non-working solution with a ton of debugging for now. Left off trying to work out a correct subtractCube in subtract.js.
+
+
+---
 ## Day 20
 
 Both parts are pretty ugly in their own ways, but they get the answer so I'm moving on.
